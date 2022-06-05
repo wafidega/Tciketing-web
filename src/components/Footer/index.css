@@ -1,0 +1,18 @@
+footer {
+  padding: 20px;
+}
+footer p {
+  color: #4e4b66;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+}
+footer .row .col-md-3 .footer__content {
+  color: #4e4b66;
+}
+
+.copyright {
+  text-align: center;
+}

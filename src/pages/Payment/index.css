@@ -1,0 +1,39 @@
+main {
+  background-color: #f5f6f8;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.payment-detail {
+  background-color: white;
+}
+.payment-list {
+  color: #6b6b6b !important;
+  padding: 20px;
+}
+.button-payment {
+  border-color: white !important;
+}
+.payment-desc {
+  padding: 20px;
+}
+.payment-menthod-title {
+  padding-top: 30px;
+}
+.payment-method {
+  background-color: white;
+}
+.image-payment {
+  padding: 20px;
+}
+.data {
+  background-color: white;
+  padding: 20px;
+}
+
+.payment-pay {
+  background-color: #5f2eea !important;
+  border-color: #5f2eea !important;
+  width: 100%;
+}

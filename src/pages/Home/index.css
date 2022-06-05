@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+.banner-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.banner-caption h2 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #2e2e2e;
+}
+
+.button__searchMovie {
+  background-color: #5f2eea !important;
+}
+
+.button__month {
+  margin: 10px;
+}
+.banner-caption h1 {
+  font-size: 56px;
+  font-weight: 700;
+  color: #5f2eea !important;
+}
+
+.banner-caption h1 {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.now-showing {
+  width: 1366px;
+  height: 578px;
+  left: 0px;
+  top: 713px;
+  background-color: #f5f6f8;
+  white-space: nowrap;
+  overflow-x: auto;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.now-showing h1 {
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 50px;
+  color: #5f2eea !important;
+}
+
+.comic__image {
+  max-width: 100%;
+  width: 200px;
+  border-radius: 10px;
+  margin: 10px;
+  margin-top: 50px;
+}
+
+.upcoming {
+}
+
+.upcoming h3 {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.upcoming .month {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.upcoming .month .button__first__month {
+  background-color: #5f2eea !important;
+  border-color: #5f2eea !important;
+}
+
+.upcoming .month .button__month {
+  background-color: white;
+  border-color: #5f2eea !important;
+  color: #5f2eea !important;
+}
+
+.upcoming .upcoming__image {
+  white-space: nowrap;
+  overflow-x: auto;
+  text-align: center;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.upcoming .upcoming__image .card {
+  max-width: 100%;
+  width: 200px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.upcoming .upcoming__image .card-group .card {
+  max-width: 100%;
+  width: 200px;
+  border-radius: 10px;
+  margin: 10px;
+  margin-top: 50px;
+}
+
+.upcoming .upcoming__image .card-group .card .button__upcoming {
+  background-color: white;
+  border-color: #5f2eea !important;
+  color: #5f2eea !important;
+}
+
+.content__banner {
+}
+
+.content__banner h1 {
+  text-align: center;
+}
+
+.join__desc h2 {
+  color: #4e4b66;
+  font-size: 24px;
+}
+
+.join__desc h1 {
+  color: #5f2eea !important;
+  font-size: 48px;
+}
+
+.join__input {
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.join__input input {
+  padding: 12px;
+  margin-right: 12px;
+  border-radius: 4px;
+}
+
+.join__caption p {
+  font-size: 12px;
+  color: #6e7191 !important;
+}
+.button-join {
+  background-color: #5f2eea !important;
+}
+
+Footer {
+  width: 1366px;
+  height: 578px;
+  left: 0px;
+  top: 3313px;
+}

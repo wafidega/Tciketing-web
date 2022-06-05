@@ -1,0 +1,45 @@
+.btn__design {
+  display: none;
+  flex-direction: column;
+}
+.btn__design button {
+  width: 100%;
+  margin-top: 12px;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 8px;
+}
+.card-body {
+  text-align: center;
+}
+.card-body:hover .btn__design {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.card__img--size {
+  border-radius: 12px !important;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.card__img--size img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card-body h2 {
+  font-size: 24px;
+  color: #14142b;
+  font-weight: 700;
+}
+
+.card-body h6 {
+  font-size: 16px;
+  color: #a0a3bd;
+}

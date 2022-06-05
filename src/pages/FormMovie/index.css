@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.navbar__home {
+  background-color: white;
+  text-align: justify;
+  position: fixed;
+  width: 100%;
+  padding: 20px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 1;
+}
+
+.navbar {
+  margin-left: 10px;
+}
+.nav-link {
+  color: black;
+}
+
+.button__location {
+  background-color: white;
+  color: black;
+  font-size: 10px;
+  border: none;
+  margin-right: 100px;
+}
+
+.button__signup {
+  margin-right: 100px;
+  background-color: #9b59b6;
+  border-color: #9b59b6;
+  border-radius: 20px;
+  height: 40px;
+  width: 120px;
+  left: 0px;
+  top: 0px;
+  border-radius: 4px;
+}
+.button__signup:hover {
+  background-color: #9b59b6;
+}
+main {
+  background-color: #f5f6f8;
+  padding-bottom: 50px;
+}
+main h3 {
+  padding: 20px;
+}
+.form-movie {
+  background-color: white;
+  padding: 20px;
+}
+
+.reset-button {
+  background-color: white !important;
+  color: #5f2eea !important;
+  border-color: #5f2eea !important;
+}
+
+.submit-button {
+  background-color: #5f2eea !important;
+  color: white !important;
+  border-color: #5f2eea !important;
+  width: 100% !important;
+  margin-top: 10px;
+}
+
+.search {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.data-movie {
+  background-color: white;
+  white-space: nowrap;
+  overflow-x: auto;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.upcoming__image .card {
+  max-width: 100%;
+  width: 200px;
+  border-radius: 10px;
+  margin: 10px;
+  position: relative;
+}
+
+.upcoming__image .card-group .card {
+  max-width: 100%;
+  width: 200px;
+  border-radius: 10px;
+  margin: 10px;
+  position: relative;
+  margin-top: 50px;
+}
+
+.upcoming__image .card-group .card .button__upcoming {
+  background-color: white;
+  border-color: #8e44ad;
+  color: #8e44ad;
+}
+
+.font__ticket {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  /* or 150% */
+
+  letter-spacing: 0.75px;
+
+  /* Text - Label */
+
+  color: #6e7191;
+}
+
+.button__book {
+  width: 100%;
+  padding: 1.5%;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+  background-color: #9b59b6;
+}
+
+footer p {
+  color: #4e4b66;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+footer .row .col-md-3 .footer__content {
+  color: #4e4b66;
+}

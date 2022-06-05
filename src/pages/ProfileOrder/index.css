@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.navbar__home {
+  background-color: white;
+  text-align: justify;
+  position: fixed;
+  width: 100%;
+  padding: 20px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 1;
+}
+
+.navbar {
+  margin-left: 10px;
+}
+.nav-link {
+  color: black;
+}
+
+.button__location {
+  background-color: white;
+  color: black;
+  font-size: 10px;
+  border: none;
+  margin-right: 100px;
+}
+
+.button__signup {
+  margin-right: 100px;
+  background-color: #9b59b6;
+  border-color: #9b59b6;
+  border-radius: 20px;
+  height: 40px;
+  width: 120px;
+  left: 0px;
+  top: 0px;
+  border-radius: 4px;
+}
+.button__signup:hover {
+  background-color: #9b59b6;
+}
+
+.button-showDetail {
+  background-color: white !important;
+  color: #5f2eea !important;
+}
+
+main {
+  background-color: #f5f6f8;
+  padding-bottom: 50px;
+}
+
+.profile-left {
+  background-color: white;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.profile-left img {
+  margin: auto;
+}
+
+.profile-left center h6 {
+  color: #f5f6f8;
+}
+.movie-point {
+  padding-top: 10px;
+}
+
+.account {
+  background-color: white !important;
+  border-bottom: 20px !important;
+  border-color: blueviolet !important;
+}
+.account-hr {
+  color: white !important;
+}
+
+.order {
+  background-color: white !important;
+  border-bottom: 20px !important;
+  border-color: blueviolet !important;
+}
+.order-hr {
+  color: blueviolet !important;
+}
+
+.account:hover {
+  background-color: white !important;
+  color: black !important;
+}
+
+.order:hover {
+  background-color: white !important;
+  color: black !important;
+}
+
+.profile-right {
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 20px;
+}
+.movie-link a {
+  border: white;
+  color: black;
+}
+.movie-link a :hover {
+  background-color: white;
+}
+.profile-left center h6 {
+  color: #4e4b66;
+}
+.profile-left h4 {
+  color: #4e4b66;
+}
+
+.ticket-book {
+  margin-bottom: 20px;
+}
+
+.button-active {
+  width: 50%;
+  background-color: #00ba88 !important;
+  border: #00ba88 !important;
+}
+
+.button-inactive {
+  background-color: #6e7191 !important;
+  width: 50%;
+  border: #6e7191 !important;
+}
+
+footer p {
+  color: #4e4b66;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+footer .row .col-md-3 .footer__content {
+  color: #4e4b66;
+}

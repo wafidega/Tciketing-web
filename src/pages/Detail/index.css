@@ -1,0 +1,61 @@
+.Showdown {
+  background-color: #f5f6f8;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.show-times {
+  text-align: center;
+  padding-left: 50px;
+}
+.card__content {
+  margin-top: 50px;
+  text-align: center;
+}
+.font__ticket {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  /* or 150% */
+
+  letter-spacing: 0.75px;
+
+  /* Text - Label */
+
+  color: #6e7191;
+}
+.image-ticket {
+  padding: 10px;
+}
+
+.ticket-title h4 {
+  padding: 10px;
+}
+
+.ticket-title p {
+  padding: 10px;
+}
+
+.button__book {
+  width: 100%;
+  padding: 1.5%;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+  background-color: #9b59b6 !important;
+}
+
+.time-font {
+  color: #b4b4b4;
+  padding: 2px;
+}
+
+.image-detail {
+  max-width: 100%;
+  width: 200px;
+  border-radius: 10px;
+  margin: 10px;
+  margin-top: 50px;
+}

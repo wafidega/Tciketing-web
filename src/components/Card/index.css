@@ -1,0 +1,32 @@
+.upcoming__image {
+  white-space: nowrap;
+  overflow-x: auto;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.upcoming__image .card {
+  max-width: 100%;
+  width: auto;
+  border-radius: 10px;
+  margin: 10px;
+  position: relative;
+}
+
+.upcoming__image .card-group .card {
+  max-width: 100%;
+  width: 200px;
+  border-radius: 10px;
+  margin: 10px;
+  position: relative;
+  margin-top: 50px;
+}
+
+.upcoming__image .card-group .card .button__upcoming {
+  background-color: white;
+  border-color: #8e44ad;
+  color: #8e44ad;
+}
+.card-title {
+  font-size: small;
+}

@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.navbar__home {
+  background-color: white;
+  text-align: justify;
+  position: fixed;
+  width: 100%;
+  padding: 20px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 1;
+}
+
+.navbar {
+  margin-left: 10px;
+}
+.nav-link {
+  color: black;
+}
+.image-profile {
+  width: 136px;
+  height: 136px;
+  border-radius: 100px;
+}
+.button__location {
+  background-color: white;
+  color: black;
+  font-size: 10px;
+  border: none;
+  margin-right: 100px;
+}
+
+.button__signup {
+  margin-right: 100px;
+  background-color: #9b59b6;
+  border-color: #9b59b6;
+  border-radius: 20px;
+  height: 40px;
+  width: 120px;
+  left: 0px;
+  top: 0px;
+  border-radius: 4px;
+}
+.button__signup:hover {
+  background-color: #9b59b6;
+}
+
+main {
+  background-color: #f5f6f8;
+  padding-bottom: 50px;
+}
+
+.profile-left {
+  background-color: white;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.profile-left img {
+  margin: auto;
+}
+
+.profile-left center h6 {
+  color: #4e4b66;
+}
+.profile-left h4 {
+  color: #4e4b66;
+}
+
+.movie-point {
+  padding-top: 10px;
+}
+
+.account {
+  background-color: white !important;
+  border-bottom: 20px !important;
+  border-color: blueviolet !important;
+}
+.account-hr {
+  color: blueviolet !important;
+}
+
+.order {
+  background-color: white !important;
+  border-bottom: 20px !important;
+  border-color: blueviolet !important;
+}
+.order-hr {
+  color: white !important;
+}
+
+.account:hover {
+  background-color: white !important;
+  color: black !important;
+}
+
+.order:hover {
+  background-color: white !important;
+  color: black !important;
+}
+
+.profile-right {
+  background-color: white;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 20px;
+}
+.movie-link a {
+  border: white;
+  color: black;
+}
+.movie-link a :hover {
+  background-color: white !important;
+}
+
+.update-button {
+  width: 50%;
+  background-color: #5f2eea !important;
+  color: white !important;
+}
+
+footer p {
+  color: #4e4b66 !important;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+footer .row .col-md-3 .footer__content {
+  color: #4e4b66 !important;
+}

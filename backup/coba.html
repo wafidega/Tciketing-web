@@ -1,0 +1,63 @@
+<div className="overlay">
+          <div className="row">
+            <div className="col-md-6">
+              {/* Bagian Kanan */}
+              <div className="picture_login">
+                <div className="overlay-picture">
+                  <img src={Title} alt="" className="img__overlay" />
+                  <span className="overlay-title">wait, watch, wow!</span>
+                </div>
+                <img src={Background} alt="" className="img__login" />
+              </div>
+            </div>
+            {/* Login Page */}
+            <div className="col-md-6">
+              <div className="login-page">
+                <h3>Sign In</h3>
+                <p className="login-p">
+                  Sign in with your data that you entered during your
+                  registration
+                </p>
+                {this.state.isError && (
+                  <div className="alert alert-danger">{this.state.msg}</div>
+                )}
+                <form onSubmit={this.handleSubmit} onReset={this.handleReset}>
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      placeholder="Input email"
+                      name="email"
+                      class="form-control"
+                      onChange={this.handleChangeForm}
+                    />
+                  </div>
+                  <br />
+                  <div class="form-group">
+                    <input
+                      type="password"
+                      placeholder="Input Password"
+                      name="password"
+                      class="form-control"
+                      onChange={this.handleChangeForm}
+                    />
+                  </div>
+                  <br />
+                  <div class="form-group">
+                    <button className="btnSubmit btn btn-primary" type="submit">
+                      Submit
+                    </button>
+                  </div>
+                  <br />
+                  <div class="form-group">
+                    <p class="forgot">
+                      Forgot Password{" "}
+                      <a href="#" class="Reset" value="Login">
+                        RESET NOW
+                      </a>
+                    </p>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>

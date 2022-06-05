@@ -1,0 +1,9 @@
+.button__delete {
+  width: 100%;
+  padding: 1.5%;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+}

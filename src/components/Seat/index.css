@@ -1,0 +1,61 @@
+.seat__row {
+  flex-wrap: nowrap !important;
+  margin-bottom: 10px;
+}
+
+.seat__col {
+  padding: 0 5px !important;
+}
+
+.seat__list {
+  width: 20px;
+  height: 20px;
+  border-radius: 25%;
+  cursor: pointer;
+  font-size: small;
+}
+
+.seat__list:hover {
+  width: 25px;
+  height: 25px;
+}
+
+.seat__list--available {
+  background-color: #d6d8e7 !important;
+}
+
+.seat__list--selected {
+  background-color: #5f2eea !important;
+}
+
+.seat__list--sold {
+  background-color: #6e7191 !important;
+}
+
+@media (max-width: 575.98px) {
+  .seat__row {
+    margin-bottom: 5px;
+  }
+  .seat__col--text {
+    font-size: 10px;
+  }
+  .seat__list {
+    width: 10px;
+    height: 10px;
+    border-radius: 15%;
+  }
+  .seat__list:hover {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+.booking {
+  width: 100%;
+  background-color: #5f2eea !important;
+  margin: 10px;
+}
+.delete {
+  width: 100%;
+  margin: 10px;
+}
